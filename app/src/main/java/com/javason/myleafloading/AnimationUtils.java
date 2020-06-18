@@ -23,7 +23,7 @@ public class AnimationUtils {
         return mLoadingRotateAnimation;
     }
 
-    public static RotateAnimation initRorateAnimation(boolean isClockWise, long duration, boolean
+    public static RotateAnimation initRotateAnimation(boolean isClockWise, long duration, boolean
             isFillAfter, int repeatCount) {
         int endAngle;
         if (isClockWise) {
